@@ -4,7 +4,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2510.16442-b31b1b.svg)](https://arxiv.org/abs/2510.16442)
 [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://11ouo1.github.io/edvd-llama/)
-[![HuggingFace Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-ER--FF%2B%2Bset-blue)](https://huggingface.co/datasets/your-username/ER-FF-plus-plus-set)
+[![HuggingFace Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-ER--FF%2B%2Bset-blue)](https://huggingface.co/datasets/Codebee/ER-FFppset)
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](LICENSE)
 
 </div>
@@ -42,7 +42,7 @@ We present **ER-FF++set** (Explainable Reasoning FF++ Benchmark Dataset), specif
     - **Structured Rationale**: Detailed textual explanations describing *why* a video is fake (e.g., "irregular blinking," "mouth artifacts").
     - **QA Pairs**: Instruction-tuning data for MLLMs.
 
-You can download the dataset here: [🤗 HuggingFace Link](https://huggingface.co/datasets/your-username/ER-FF-plus-plus-set)
+You can download the dataset here: [🤗 HuggingFace Link](https://huggingface.co/datasets/Codebee/ER-FFppset)
 
 ## 🏆 Performance Benchmark
 
@@ -55,18 +55,10 @@ Our model achieves state-of-the-art performance on the ER-FF++set benchmark, sig
 | VideoLLaMA3 | 72.48 | 75.93 | 73.50 |
 | **EDVD-LLaMA (Ours)** | **84.75** | **87.64** | **85.13** |
 
-## 🚀 Code Release Plan
-
-We are committed to open-source research. The full training and inference code will be made public following the publication of our paper. The repository will include:
-
-- [ ] Data preprocessing scripts for FaceForensics++.
-- [ ] Training scripts for the EDVD-LLaMA adapter.
-- [ ] Inference and evaluation code.
-- [ ] Pre-trained model weights.
 
 ## 📝 Citation
 
-If you find our work, dataset, or code useful for your research, please consider citing:
+If you find our work useful for your research, please consider citing:
 
 ```bibtex
 @misc{sun2025edvdllamaexplainabledeepfakevideo,
