@@ -27,9 +27,7 @@ Deepfake detection has traditionally focused on binary classification, often lac
 To support this task, we introduce the **ER-FF++set**, a high-quality dataset constructed from **FaceForensics++**, enriched with structured visual-language annotations to train models for explainable forensics.
 
 <div align="center">
-  <img src="assets/framework.png" alt="EDVD-LLaMA Framework" width="800"/>
-  <br>
-  <em>(Figure: Overview of the EDVD-LLaMA Framework. Please upload your framework image to an 'assets' folder.)</em>
+  <img src="framework.png" alt="EDVD-LLaMA Framework" width="800"/>
 </div>
 
 ## 📂 ER-FF++set Dataset
