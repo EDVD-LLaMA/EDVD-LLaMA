@@ -14,7 +14,7 @@
 ## 📢 News & Updates
 
 - **[2025-01]**: We have released the **ER-FF++set** dataset on HuggingFace!
-- **[Status]**: 🚧 **The code for EDVD-LLaMA is currently under preparation and will be released immediately upon the acceptance of the paper.** Please stay tuned!
+- **[Status]**: 🚧 **The code for EDVD-LLaMA is coming soon and will be released immediately upon the acceptance of the paper.** Please stay tuned!
 
 ---
 
@@ -38,7 +38,7 @@ We present **ER-FF++set** (Explainable Reasoning FF++ Benchmark Dataset), specif
 
 - **Source**: The video clips are derived exclusively from the **FaceForensics++** dataset, covering five mainstream manipulation techniques (Deepfakes, Face2Face, FaceSwap, FaceShifter, NeuralTexture).
 - **Annotations**: Unlike the original binary labels, our dataset includes:
-    - **Forgery Masks**: Pixel-level ground truth.
+    - **Forgery Region**: Pixel-level ground truth.
     - **Structured Rationale**: Detailed textual explanations describing *why* a video is fake (e.g., "irregular blinking," "mouth artifacts").
     - **QA Pairs**: Instruction-tuning data for MLLMs.
 
